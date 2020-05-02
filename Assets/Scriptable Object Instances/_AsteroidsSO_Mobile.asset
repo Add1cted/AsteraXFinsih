@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75459cb0ced0a467fa245b508988c536, type: 3}
+  m_Name: _AsteroidsSO_Mobile
+  m_EditorClassIdentifier: 
+  minVel: 5
+  maxVel: 10
+  maxAngularVel: 10
+  initialSize: 3
+  asteroidScale: 0.75
+  numSmallerAsteroidsToSpawn: 2
+  pointsForAsteroidSize: 0000000090010000c800000064000000
+  asteroidPrefabs:
+  - {fileID: 1029653053436338, guid: 29d6fdcfb550a464cb4dbd848b2c7f69, type: 2}
+  - {fileID: 1669921439223048, guid: 380418eb6f97c7641ad7a1aa4cc5a54f, type: 2}
+  - {fileID: 1317570492134680, guid: 11645f6ec7342914c930900f7b643f2b, type: 2}
+  asteroidParticlePrefabs:
+  - {fileID: 1625365507237398, guid: 1ff782d07463d3c46b306f0196baec65, type: 2}
+  - {fileID: 1683406618584738, guid: 201f5e92737363540ab2bc4300fa242e, type: 2}
